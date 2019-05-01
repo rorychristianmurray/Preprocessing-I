@@ -151,8 +151,13 @@ html {
   justify-content: flex-end;
 }
 .navbar .navbutton {
-  font-size: 1.6rem;
   color: yellow;
   text-decoration: none;
   margin: 1.5rem;
+}
+.introbox {
+  border: 1px dashed red;
+}
+.introbox h1 {
+  font-size: 2.5rem;
 }
