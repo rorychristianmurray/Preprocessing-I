@@ -106,7 +106,6 @@ section {
 }
 body {
   line-height: 1;
-  background: fuchsia;
 }
 ol,
 ul {
@@ -134,4 +133,26 @@ table {
 html,
 body {
   height: 100%;
+}
+/* Rory's CSS */
+/* Variables */
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: lightgrey;
+  font-size: 1.6rem;
+}
+.navbar {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar .navbutton {
+  font-size: 1.6rem;
+  color: yellow;
+  text-decoration: none;
+  margin: 1.5rem;
 }
