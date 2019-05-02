@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -55,5 +56,49 @@ table {
 
 html, body {
     height: 100%;
+}
+
+/* Rory's CSS */
+
+/* Variables */
+
+@main-font-size: 1.6rem;
+@main-header-size: 2.5rem;
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background: lightgrey;
+	font-size: @main-font-size;
+}
+
+header {
+
+}
+
+.navbar {
+	border: 1px solid red;
+	display: flex;
+	justify-content: flex-end;
+
+		.navbutton {
+			color: yellow;
+			text-decoration: none;
+			margin: 1.5rem;
+
+
+		}
+}
+
+.introbox {
+	border: 1px dashed red;
+		h1 {
+			font-size: @main-header-size;
+		}
+
 }
 
